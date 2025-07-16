@@ -2,3 +2,7 @@ fastapi
 uvicorn
 python-multipart
 starlette
+requests
+python-docx
+PyPDF2
+gunicorn
