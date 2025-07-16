@@ -29,7 +29,7 @@ function App() {
     const formData = new FormData();
     formData.append('file', file);
     try {
-      const res = await fetch('https://tattel-ai-review.onrender.com', {
+      const res = await fetch('https://tattel-ai-review.onrender.com/review-cv', {
         method: 'POST',
         body: formData,
       });
